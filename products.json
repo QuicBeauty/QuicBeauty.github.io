@@ -1,0 +1,478 @@
+[
+    {
+        "name": "Hot Sales",
+        "id": "H",
+        "products": [
+            {
+                "id": "B401",
+                "name": "Nylon cape",
+                "desc": "black, 140x100cm, with velcro closure",
+                "spec": "individually packed, 100pc/ctn, MOQ 5000pc"
+            },
+            {
+                "id": "B101",
+                "name": "PVC highlighting cap",
+                "desc": "clear PVC with printing, with or without neck guard",
+                "spec": "20pc packed, 1000pc/ctn, MOQ 20000pc"
+            },
+            {
+                "id": "A101",
+                "name": "shower cap",
+                "desc": "clear, 0.014mm thick, indivicaully packed or roll packed",
+                "spec": "1000pc/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "D103",
+                "name": "Car cover set",
+                "desc": "white or transparent,5 in 1 set, 1set/bag, 500set/ctn",
+                "spec": "MOQ 50000set"
+            },
+            {
+                "id": "C303",
+                "name": "Examination vinyl glove",
+                "desc": "industrial grade,non sterile, AQL 4.0, powder free",
+                "spec": "100pc/box, 100box/ctn, MOQ 5000box"
+            },
+            {
+                "id": "B301",
+                "name": "Neck paper",
+                "desc": "white, with blue adhesive strip",
+                "spec": "100pc/roll. 5roll/pack, 100roll/ctn, MOQ 10000roll"
+            },
+            {
+                "id": "A209",
+                "name": "Non woven kimono",
+                "desc": "white, 35gsm, indivudally packed",
+                "spec": "10pc/bag, 100pc/ctn. MOQ 20000pc"
+            },
+            {
+                "id": "A301",
+                "name": "Non woven slippers, open",
+                "desc": "white, open toe, 90gsm sole, 30 gsm instep, 2pc packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A102",
+                "name": "Non woven tanga for women",
+                "desc": "white, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A402",
+                "name": "Non woven wax roll",
+                "desc": "white, 90gsm, 5V:5P, 7x800cm,1 roll packed",
+                "spec": "36pack/ctn, MOQ 3600pack"
+            },
+            {
+                "id": "B201",
+                "name": "Plastic brush",
+                "desc": "red, 15.8cm long, logo printing available",
+                "spec": "individually packed, MOQ 50000pc"
+            },
+            {
+                "id": "D101",
+                "name": "Straight drinking straw",
+                "desc": "clear, 12x250mm, individually packed",
+                "spec": "100pc/bag, 2000pc/ctn. MOQ 200000pc"
+            }
+        ]
+    },
+    {
+        "name": "Spa wears & beauty salon accessories",
+        "id": "A",
+        "products": [
+            {
+                "id": "A201",
+                "name": "Non woven g string",
+                "desc": "white, 35gsm,indivudally packed.100pc/bag, 1000pc/ctn",
+                "spec": "100pc/bag, 1000pc/ctn.MOQ 100000pc"
+            },
+            {
+                "id": "A202",
+                "name": "Non woven tanga for women",
+                "desc": "white, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A203",
+                "name": "Non woven women's brief",
+                "img": "non_woven_women_brief.jpg",
+                "desc": "white, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A204",
+                "name": "Non woven tanga for men",
+                "desc": "black or dark blue, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "D205",
+                "name": "Non woven men's brief",
+                "img": "non_woven_men_brief.jpg",
+                "desc": "black or dark blue, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A206",
+                "name": "Non woven men's boxer",
+                "img": "non_woven_men_boxer.jpg",
+                "desc": "black or dark blue, 35gsm,indivudally packed",
+                "spec": "100pc/bag, 500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A207",
+                "name": "Non woven bra",
+                "desc": "black, 35gsm, indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A208",
+                "name": "Non woven bath wrap",
+                "desc": "white, 50gsm, indivudally packed",
+                "spec": "100pc/bag, 500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A209",
+                "name": "Non woven kimono",
+                "desc": "white, 35gsm, indivudally packed",
+                "spec": "10pc/bag, 100pc/ctn. MOQ 20000pc"
+            },
+            {
+                "id": "A210",
+                "name": "Non woven pants",
+                "desc": "white, 35gsm, indivudally packed",
+                "spec": "100pc/bag, 500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A103",
+                "name": "Non woven hair band",
+                "desc": "white, 10gsm, 2ply, 4 elastic,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A104",
+                "name": "Non woven clip cap",
+                "desc": "white, 10gsm,indivudally packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A301",
+                "name": "Non woven slippers, open",
+                "desc": "white, open toe, 90gsm sole, 30 gsm instep, 2pc packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A302",
+                "name": "Non woven slippers, closed",
+                "desc": "white, closed toe, 90gsm sole, 30 gsm instep, 2pc packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A303",
+                "name": "anti slip slippers, open",
+                "desc": "white, open toe, 3mm EVA sole, 30 gsm instep, 2pc packed",
+                "spec": "500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A304",
+                "name": "anti slip slippers, closed",
+                "desc": "white, closed toe, 3mm EVA sole, 30 gsm instep, 2pc packed",
+                "spec": "500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A305",
+                "name": "EVA slippers",
+                "desc": "various color, 3-5mm thick EVA， anti slip, 2pc packed",
+                "spec": "500pc/ctn. MOQ 50000pc"
+            },
+            {
+                "id": "A306",
+                "name": "EVA toe seperator",
+                "desc": "various color, 10mm thick",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A307",
+                "name": "PE foam slippers",
+                "desc": "white, 4mm thick",
+                "spec": "50pc/bag, 500pc/ctn. MOQ 100000pc"
+            },
+            {
+                "id": "A401",
+                "name": "Non woven wax strip",
+                "desc": "white, 90gsm, 5V:5P, 7x20cm,100pc packed",
+                "spec": "100pack/ctn, MOQ 10000pack"
+            },
+            {
+                "id": "A402",
+                "name": "Non woven wax roll",
+                "desc": "white, 90gsm, 5V:5P, 7x800cm,1 roll packed",
+                "spec": "36pack/ctn, MOQ 3600pack"
+            },
+            {
+                "id": "A403",
+                "name": "Spunlace facial mask",
+                "desc": "white, 50gsm,100pc packed",
+                "spec": "400bag/ctn, MOQ 100000pc"
+            },
+            {
+                "id": "A101",
+                "name": "shower cap",
+                "desc": "clear, 0.014mm thick, indivicaully packed or roll packed",
+                "spec": "1000pc/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "A102",
+                "name": "Ear cap",
+                "desc": "clear, 0.014mm thick,2pc packed or in bulk",
+                "spec": "2000pc/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "A404",
+                "name": "Nail pad roll",
+                "desc": "wihte",
+                "spec": "500pc/roll,MOQ 2000roll"
+            },
+            {
+                "id": "A405",
+                "name": "Removal wrap foil",
+                "desc": "smooth or imbossed surface, foil szie 9x6.6cm, cotton size 2x3cm",
+                "spec": "100pc/box. 60box/ctn MOQ 5000box"
+            }
+        ]
+    },
+    {
+        "name": "Hair salon necessities",
+        "id": "B",
+        "products": [
+            {
+                "id": "B401",
+                "name": "Nylon cape",
+                "desc": "black, 140x100cm, with velcro closure",
+                "spec": "individually packed, 100pc/ctn, MOQ 5000pc"
+            },
+            {
+                "id": "B402",
+                "name": "Non woven cape",
+                "desc": "black or white, 140x100cm, with lace to tie or velcro closure",
+                "spec": "individually packed, 250pc/ctn, MOQ 25000pc"
+            },
+            {
+                "id": "B403",
+                "name": "PE cape",
+                "desc": "white, 120x80cm, with lace to tie",
+                "spec": "20pc packed, 2000pc/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "B404",
+                "name": "PE apron",
+                "desc": "white, 120x80cm. 20pc packed",
+                "spec": "2000pc/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "B501",
+                "name": "PE glove",
+                "desc": "clear, smooth or embossed surface,0.6-2.2g/pc",
+                "spec": "2pc packed or 100pc/packed. 10000pc/ctn, MOQ 1000000pc"
+            },
+            {
+                "id": "B301",
+                "name": "Neck paper",
+                "desc": "white, with blue adhesive strip",
+                "spec": "100pc/roll. 5roll/pack, 100roll/ctn, MOQ 10000roll"
+            },
+            {
+                "id": "B302",
+                "name": "Neck paper dispenser",
+                "desc": "",
+                "spec": "clear, 10x10x7cm, 100pc/bag, MOQ 2500pc"
+            },
+            {
+                "id": "B101",
+                "name": "PVC highlighting cap",
+                "desc": "clear PVC with printing, with or without neck guard",
+                "spec": "20pc packed, 1000pc/ctn, MOQ 20000pc"
+            },
+            {
+                "id": "B201",
+                "name": "Hair dyeing brush",
+                "desc": "black, various size and shape.logo printing available",
+                "spec": "individually packed, MOQ 50000pc"
+            },
+            {
+                "id": "B202",
+                "name": "Plastic brush",
+                "desc": "red, 15.8cm long, logo printing available",
+                "spec": "individually packed, MOQ 50000pc"
+            },
+            {
+                "id": "B203",
+                "name": "Plastic needle",
+                "desc": "red, fit for highlighting cap",
+                "spec": "100pc packed, MOQ 50000pc"
+            }
+        ]
+    },
+    {
+        "name": "Medical disposables",
+        "id": "C",
+        "products": [
+            {
+                "id": "C301",
+                "name": "Examination latex glove",
+                "desc": "industrial grade,non sterile, AQL 4.0, powder free",
+                "spec": "100pc/box, 100box/ctn, MOQ 5000box"
+            },
+            {
+                "id": "C302",
+                "name": "Examination nitrile glove",
+                "desc": "industrial grade,non sterile, AQL 4.0, powder free",
+                "spec": "100pc/box, 100box/ctn, MOQ 5000box"
+            },
+            {
+                "id": "C303",
+                "name": "Examination vinyl glove",
+                "desc": "industrial grade,non sterile, AQL 4.0, powder free",
+                "spec": "100pc/box, 100box/ctn, MOQ 5000box"
+            },
+            {
+                "id": "C304",
+                "name": "Surgical latex glove",
+                "desc": "medical grade, sterile,AQL1.5, powder free",
+                "spec": "2pc/bag, 1000pc/ctn, MOQ 100000pc"
+            },
+            {
+                "id": "C101",
+                "name": "Non woven face mask",
+                "desc": "white or light blue, 3ply, adult size, with elastic ear loop or lace to tie",
+                "spec": "50pc/box, 2000/ctn, MOQ 200000pc"
+            },
+            {
+                "id": "C201",
+                "name": "Coverall",
+                "desc": "white, PP, SMS, SF?microporous non woven, with hood, no shoes",
+                "spec": "individaully packed, 100pc/ctn,MOQ 10000pc"
+            },
+            {
+                "id": "C401",
+                "name": "PE shoe cover",
+                "desc": "blue, warter proof, 13x38cm,machine made",
+                "spec": "10pc/roll,100pc/bag, 1000pc/ctn,MOQ 100000pc"
+            },
+            {
+                "name": "Non woven shoe cover",
+                "desc": "light blue, 13x38cm,machine made,100pc paccked",
+                "spec": "4000pc/ctn,MOQ 500000pc"
+            }
+        ]
+    },
+    {
+        "name": "Food industrial items",
+        "id": "D",
+        "products": [
+            {
+                "id": "D101",
+                "name": "Straight drinking straw",
+                "desc": "clear, 12x250mm, individually packed",
+                "spec": "100pc/bag, 2000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D102",
+                "name": "Flexible drinking straw",
+                "desc": "colored, 6x260mm, individually packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D103",
+                "name": "Straw with spoon",
+                "desc": "colored, 7x210mm, individually packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D104",
+                "name": "Straw with cap",
+                "desc": "clear, 5x230mm, individually packed",
+                "spec": "100pc/bag, 1000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D105",
+                "name": "Plastic spoon",
+                "desc": "Various size, color and shape",
+                "spec": "50pc packed,  2000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D106",
+                "name": "Plastic fork",
+                "desc": "Various size, color and shape",
+                "spec": "50pc packed,  2000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D107",
+                "name": "Plastic knife",
+                "desc": "Various size, color and shape",
+                "spec": "50pc packed,  2000pc/ctn. MOQ 200000pc"
+            },
+            {
+                "id": "D108",
+                "name": "Paper cup",
+                "desc": "3-20oz, wax coated, 170-350gsm paper",
+                "spec": "20pc packed, 500pc/ctn, MOQ 50000pc"
+            },
+            {
+                "id": "D109",
+                "name": "Paper cup with handle",
+                "desc": "7oz, wax coated, 170-350gsm paper",
+                "spec": "20pc packed, 500pc/ctn, MOQ 50000pc"
+            },
+            {
+                "id": "D110",
+                "name": "Paper plate",
+                "desc": "Round or square, various size and color",
+                "spec": "50pc packed,  2000pc/ctn. MOQ 200000pc"
+            }
+        ]
+    },
+    {
+        "name": "Other disposables",
+        "id": "E",
+        "products": [
+            {
+                "id": "E101",
+                "name": "Car seat cover",
+                "desc": "white or transparent, 80x135cm,single piece,individually packed or 20pc packed",
+                "spec": "1000pc/ctn,MOQ 50000pc"
+            },
+            {
+                "id": "E102",
+                "name": "Car seat cover in roll",
+                "desc": "white or transparent, 80x135cm,500pc/roll, 4roll/ctn",
+                "spec": "MOQ 100roll"
+            },
+            {
+                "id": "E103",
+                "name": "Car cover set",
+                "desc": "white or transparent,5 in 1 set, 1set/bag, 500set/ctn",
+                "spec": "MOQ 50000set"
+            },
+            {
+                "id": "E201",
+                "name": "Head rest cover",
+                "desc": "White, 40gsm, 30x38cm, 100pc packed, 1000pc/ctn",
+                "spec": "MOQ 100000pc"
+            },
+            {
+                "id": "E202",
+                "name": "Air sickness bag",
+                "desc": "White, 70gsm kraft paper, water proof, 237x125x80mm, 20pc packed, 1000pc/ctn",
+                "spec": "MOQ 100000pc"
+            },
+            {
+                "id": "E301",
+                "name": "Sewing kit",
+                "desc": "6 thread, 2 button, 1 needle, 1 safety pin,packed in bag or paper box",
+                "spec": "MOQ 100000set"
+            }
+        ]
+    }
+]

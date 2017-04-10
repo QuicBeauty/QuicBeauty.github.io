@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://bootstrap.kinghack.com/examples/fluid.html# -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Quic Beauty, from China</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="quicbeauty@163.com">
+  <meta name="author" content="QuicBeauty">
+
+  <!-- Le styles -->
+  <style type="text/css">
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+      min-height: 200px;
+    }
+    
+    .sidebar-nav {
+      padding: 9px 0;
+    }
+    
+    /*#left-span {
+      position: fixed;
+      position:absolute;
+    }*/
+    
+    @media (max-width: 980px) {
+      /* Enable use of floated navbar text */
+      .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+
+    .form-group{
+      margin-top:22px;
+    }
+
+.hot-title{
+  background-color: #ddd;
+  padding: 5px 5px;
+}
+
+.about-holder {
+  padding: 0 70px 0px 70px;
+}
+.about-holder h4{
+  font-size: 24px;
+}
+.about-holder p{
+  font-size: 16px;
+}
+.factory-pic{
+    padding: 0 70px 0px 70px;
+}
+.about-holder h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding: 70px 0 40px 0;
+  position: relative;
+}
+.about-holder h2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 98px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#foot-content{
+  margin-top: 40px;
+  margin-bottom:0px;
+  background-color: #333;
+}
+#foot-content p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    /*height:70px;*/
+    line-height: 70px; vertical-align: middle;
+}
+
+#slide{overflow:hidden; padding-left: 15px;padding-right: 15px;}
+#slide ul{list-style:none;}
+#slide li{float:left;}
+.slideul1{width:9999px;}
+
+  </style>
+
+  <link href="./bt/css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./bt/js/bootstrap.min.js"></script>
+  <script src="http://cdn1.lncld.net/static/js/2.1.4/av-min.js"></script>
+  <script src="./js/jquery.md5.js"></script>
+  <script src="./js/carousel.js"></script>
+  <script src="./js/ylQueue.js"></script>
+  <link href="./css/socialtouch.css" rel="stylesheet">
+  <link href="./font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script>
+    var gloable_product = "[{\"name\":\"Hot Sales\",\"id\":\"H\",\"products\":[{\"id\":\"B401\",\"name\":\"Nylon cape\",\"desc\":\"black, 140x100cm, with velcro closure\",\"spec\":\"individually packed, 100pc/ctn, MOQ 5000pc\"},{\"id\":\"B101\",\"name\":\"PVC highlighting cap\",\"desc\":\"clear PVC with printing, with or without neck guard\",\"spec\":\"20pc packed, 1000pc/ctn, MOQ 20000pc\"},{\"id\":\"A101\",\"name\":\"shower cap\",\"desc\":\"clear, 0.014mm thick, indivicaully packed or roll packed\",\"spec\":\"1000pc/ctn, MOQ 200000pc\"},{\"id\":\"D103\",\"name\":\"Car cover set\",\"desc\":\"white or transparent,5 in 1 set, 1set/bag, 500set/ctn\",\"spec\":\"MOQ 50000set\"},{\"id\":\"C303\",\"name\":\"Examination vinyl glove\",\"desc\":\"industrial grade,non sterile, AQL 4.0, powder free\",\"spec\":\"100pc/box, 100box/ctn, MOQ 5000box\"},{\"id\":\"B301\",\"name\":\"Neck paper\",\"desc\":\"white, with blue adhesive strip\",\"spec\":\"100pc/roll. 5roll/pack, 100roll/ctn, MOQ 10000roll\"},{\"id\":\"A209\",\"name\":\"Non woven kimono\",\"desc\":\"white, 35gsm, indivudally packed\",\"spec\":\"10pc/bag, 100pc/ctn. MOQ 20000pc\"},{\"id\":\"A301\",\"name\":\"Non woven slippers, open\",\"desc\":\"white, open toe, 90gsm sole, 30 gsm instep, 2pc packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A102\",\"name\":\"Non woven tanga for women\",\"desc\":\"white, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A402\",\"name\":\"Non woven wax roll\",\"desc\":\"white, 90gsm, 5V:5P, 7x800cm,1 roll packed\",\"spec\":\"36pack/ctn, MOQ 3600pack\"},{\"id\":\"B201\",\"name\":\"Plastic brush\",\"desc\":\"red, 15.8cm long, logo printing available\",\"spec\":\"individually packed, MOQ 50000pc\"},{\"id\":\"D101\",\"name\":\"Straight drinking straw\",\"desc\":\"clear, 12x250mm, individually packed\",\"spec\":\"100pc/bag, 2000pc/ctn. MOQ 200000pc\"}]},{\"name\":\"Spa wears & beauty salon accessories\",\"id\":\"A\",\"products\":[{\"id\":\"A201\",\"name\":\"Non woven g string\",\"desc\":\"white, 35gsm,indivudally packed.100pc/bag, 1000pc/ctn\",\"spec\":\"100pc/bag, 1000pc/ctn.MOQ 100000pc\"},{\"id\":\"A202\",\"name\":\"Non woven tanga for women\",\"desc\":\"white, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A203\",\"name\":\"Non woven women's brief\",\"img\":\"non_woven_women_brief.jpg\",\"desc\":\"white, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A204\",\"name\":\"Non woven tanga for men\",\"desc\":\"black or dark blue, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"D205\",\"name\":\"Non woven men's brief\",\"img\":\"non_woven_men_brief.jpg\",\"desc\":\"black or dark blue, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A206\",\"name\":\"Non woven men's boxer\",\"img\":\"non_woven_men_boxer.jpg\",\"desc\":\"black or dark blue, 35gsm,indivudally packed\",\"spec\":\"100pc/bag, 500pc/ctn. MOQ 50000pc\"},{\"id\":\"A207\",\"name\":\"Non woven bra\",\"desc\":\"black, 35gsm, indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A208\",\"name\":\"Non woven bath wrap\",\"desc\":\"white, 50gsm, indivudally packed\",\"spec\":\"100pc/bag, 500pc/ctn. MOQ 50000pc\"},{\"id\":\"A209\",\"name\":\"Non woven kimono\",\"desc\":\"white, 35gsm, indivudally packed\",\"spec\":\"10pc/bag, 100pc/ctn. MOQ 20000pc\"},{\"id\":\"A210\",\"name\":\"Non woven pants\",\"desc\":\"white, 35gsm, indivudally packed\",\"spec\":\"100pc/bag, 500pc/ctn. MOQ 50000pc\"},{\"id\":\"A103\",\"name\":\"Non woven hair band\",\"desc\":\"white, 10gsm, 2ply, 4 elastic,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A104\",\"name\":\"Non woven clip cap\",\"desc\":\"white, 10gsm,indivudally packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A301\",\"name\":\"Non woven slippers, open\",\"desc\":\"white, open toe, 90gsm sole, 30 gsm instep, 2pc packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A302\",\"name\":\"Non woven slippers, closed\",\"desc\":\"white, closed toe, 90gsm sole, 30 gsm instep, 2pc packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A303\",\"name\":\"anti slip slippers, open\",\"desc\":\"white, open toe, 3mm EVA sole, 30 gsm instep, 2pc packed\",\"spec\":\"500pc/ctn. MOQ 50000pc\"},{\"id\":\"A304\",\"name\":\"anti slip slippers, closed\",\"desc\":\"white, closed toe, 3mm EVA sole, 30 gsm instep, 2pc packed\",\"spec\":\"500pc/ctn. MOQ 50000pc\"},{\"id\":\"A305\",\"name\":\"EVA slippers\",\"desc\":\"various color, 3-5mm thick EVA， anti slip, 2pc packed\",\"spec\":\"500pc/ctn. MOQ 50000pc\"},{\"id\":\"A306\",\"name\":\"EVA toe seperator\",\"desc\":\"various color, 10mm thick\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 100000pc\"},{\"id\":\"A307\",\"name\":\"PE foam slippers\",\"desc\":\"white, 4mm thick\",\"spec\":\"50pc/bag, 500pc/ctn. MOQ 100000pc\"},{\"id\":\"A401\",\"name\":\"Non woven wax strip\",\"desc\":\"white, 90gsm, 5V:5P, 7x20cm,100pc packed\",\"spec\":\"100pack/ctn, MOQ 10000pack\"},{\"id\":\"A402\",\"name\":\"Non woven wax roll\",\"desc\":\"white, 90gsm, 5V:5P, 7x800cm,1 roll packed\",\"spec\":\"36pack/ctn, MOQ 3600pack\"},{\"id\":\"A403\",\"name\":\"Spunlace facial mask\",\"desc\":\"white, 50gsm,100pc packed\",\"spec\":\"400bag/ctn, MOQ 100000pc\"},{\"id\":\"A101\",\"name\":\"shower cap\",\"desc\":\"clear, 0.014mm thick, indivicaully packed or roll packed\",\"spec\":\"1000pc/ctn, MOQ 200000pc\"},{\"id\":\"A102\",\"name\":\"Ear cap\",\"desc\":\"clear, 0.014mm thick,2pc packed or in bulk\",\"spec\":\"2000pc/ctn, MOQ 200000pc\"},{\"id\":\"A404\",\"name\":\"Nail pad roll\",\"desc\":\"wihte\",\"spec\":\"500pc/roll,MOQ 2000roll\"},{\"id\":\"A405\",\"name\":\"Removal wrap foil\",\"desc\":\"smooth or imbossed surface, foil szie 9x6.6cm, cotton size 2x3cm\",\"spec\":\"100pc/box. 60box/ctn MOQ 5000box\"}]},{\"name\":\"Hair salon necessities\",\"id\":\"B\",\"products\":[{\"id\":\"B401\",\"name\":\"Nylon cape\",\"desc\":\"black, 140x100cm, with velcro closure\",\"spec\":\"individually packed, 100pc/ctn, MOQ 5000pc\"},{\"id\":\"B402\",\"name\":\"Non woven cape\",\"desc\":\"black or white, 140x100cm, with lace to tie or velcro closure\",\"spec\":\"individually packed, 250pc/ctn, MOQ 25000pc\"},{\"id\":\"B403\",\"name\":\"PE cape\",\"desc\":\"white, 120x80cm, with lace to tie\",\"spec\":\"20pc packed, 2000pc/ctn, MOQ 200000pc\"},{\"id\":\"B404\",\"name\":\"PE apron\",\"desc\":\"white, 120x80cm. 20pc packed\",\"spec\":\"2000pc/ctn, MOQ 200000pc\"},{\"id\":\"B501\",\"name\":\"PE glove\",\"desc\":\"clear, smooth or embossed surface,0.6-2.2g/pc\",\"spec\":\"2pc packed or 100pc/packed. 10000pc/ctn, MOQ 1000000pc\"},{\"id\":\"B301\",\"name\":\"Neck paper\",\"desc\":\"white, with blue adhesive strip\",\"spec\":\"100pc/roll. 5roll/pack, 100roll/ctn, MOQ 10000roll\"},{\"id\":\"B302\",\"name\":\"Neck paper dispenser\",\"desc\":\"\",\"spec\":\"clear, 10x10x7cm, 100pc/bag, MOQ 2500pc\"},{\"id\":\"B101\",\"name\":\"PVC highlighting cap\",\"desc\":\"clear PVC with printing, with or without neck guard\",\"spec\":\"20pc packed, 1000pc/ctn, MOQ 20000pc\"},{\"id\":\"B201\",\"name\":\"Hair dyeing brush\",\"desc\":\"black, various size and shape.logo printing available\",\"spec\":\"individually packed, MOQ 50000pc\"},{\"id\":\"B202\",\"name\":\"Plastic brush\",\"desc\":\"red, 15.8cm long, logo printing available\",\"spec\":\"individually packed, MOQ 50000pc\"},{\"id\":\"B203\",\"name\":\"Plastic needle\",\"desc\":\"red, fit for highlighting cap\",\"spec\":\"100pc packed, MOQ 50000pc\"}]},{\"name\":\"Medical disposables\",\"id\":\"C\",\"products\":[{\"id\":\"C301\",\"name\":\"Examination latex glove\",\"desc\":\"industrial grade,non sterile, AQL 4.0, powder free\",\"spec\":\"100pc/box, 100box/ctn, MOQ 5000box\"},{\"id\":\"C302\",\"name\":\"Examination nitrile glove\",\"desc\":\"industrial grade,non sterile, AQL 4.0, powder free\",\"spec\":\"100pc/box, 100box/ctn, MOQ 5000box\"},{\"id\":\"C303\",\"name\":\"Examination vinyl glove\",\"desc\":\"industrial grade,non sterile, AQL 4.0, powder free\",\"spec\":\"100pc/box, 100box/ctn, MOQ 5000box\"},{\"id\":\"C304\",\"name\":\"Surgical latex glove\",\"desc\":\"medical grade, sterile,AQL1.5, powder free\",\"spec\":\"2pc/bag, 1000pc/ctn, MOQ 100000pc\"},{\"id\":\"C101\",\"name\":\"Non woven face mask\",\"desc\":\"white or light blue, 3ply, adult size, with elastic ear loop or lace to tie\",\"spec\":\"50pc/box, 2000/ctn, MOQ 200000pc\"},{\"id\":\"C201\",\"name\":\"Coverall\",\"desc\":\"white, PP, SMS, SF?microporous non woven, with hood, no shoes\",\"spec\":\"individaully packed, 100pc/ctn,MOQ 10000pc\"},{\"id\":\"C401\",\"name\":\"PE shoe cover\",\"desc\":\"blue, warter proof, 13x38cm,machine made\",\"spec\":\"10pc/roll,100pc/bag, 1000pc/ctn,MOQ 100000pc\"},{\"name\":\"Non woven shoe cover\",\"desc\":\"light blue, 13x38cm,machine made,100pc paccked\",\"spec\":\"4000pc/ctn,MOQ 500000pc\"}]},{\"name\":\"Food industrial items\",\"id\":\"D\",\"products\":[{\"id\":\"D101\",\"name\":\"Straight drinking straw\",\"desc\":\"clear, 12x250mm, individually packed\",\"spec\":\"100pc/bag, 2000pc/ctn. MOQ 200000pc\"},{\"id\":\"D102\",\"name\":\"Flexible drinking straw\",\"desc\":\"colored, 6x260mm, individually packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 200000pc\"},{\"id\":\"D103\",\"name\":\"Straw with spoon\",\"desc\":\"colored, 7x210mm, individually packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 200000pc\"},{\"id\":\"D104\",\"name\":\"Straw with cap\",\"desc\":\"clear, 5x230mm, individually packed\",\"spec\":\"100pc/bag, 1000pc/ctn. MOQ 200000pc\"},{\"id\":\"D105\",\"name\":\"Plastic spoon\",\"desc\":\"Various size, color and shape\",\"spec\":\"50pc packed,  2000pc/ctn. MOQ 200000pc\"},{\"id\":\"D106\",\"name\":\"Plastic fork\",\"desc\":\"Various size, color and shape\",\"spec\":\"50pc packed,  2000pc/ctn. MOQ 200000pc\"},{\"id\":\"D107\",\"name\":\"Plastic knife\",\"desc\":\"Various size, color and shape\",\"spec\":\"50pc packed,  2000pc/ctn. MOQ 200000pc\"},{\"id\":\"D108\",\"name\":\"Paper cup\",\"desc\":\"3-20oz, wax coated, 170-350gsm paper\",\"spec\":\"20pc packed, 500pc/ctn, MOQ 50000pc\"},{\"id\":\"D109\",\"name\":\"Paper cup with handle\",\"desc\":\"7oz, wax coated, 170-350gsm paper\",\"spec\":\"20pc packed, 500pc/ctn, MOQ 50000pc\"},{\"id\":\"D110\",\"name\":\"Paper plate\",\"desc\":\"Round or square, various size and color\",\"spec\":\"50pc packed,  2000pc/ctn. MOQ 200000pc\"}]},{\"name\":\"Other disposables\",\"id\":\"E\",\"products\":[{\"id\":\"E101\",\"name\":\"Car seat cover\",\"desc\":\"white or transparent, 80x135cm,single piece,individually packed or 20pc packed\",\"spec\":\"1000pc/ctn,MOQ 50000pc\"},{\"id\":\"E102\",\"name\":\"Car seat cover in roll\",\"desc\":\"white or transparent, 80x135cm,500pc/roll, 4roll/ctn\",\"spec\":\"MOQ 100roll\"},{\"id\":\"E103\",\"name\":\"Car cover set\",\"desc\":\"white or transparent,5 in 1 set, 1set/bag, 500set/ctn\",\"spec\":\"MOQ 50000set\"},{\"id\":\"E201\",\"name\":\"Head rest cover\",\"desc\":\"White, 40gsm, 30x38cm, 100pc packed, 1000pc/ctn\",\"spec\":\"MOQ 100000pc\"},{\"id\":\"E202\",\"name\":\"Air sickness bag\",\"desc\":\"White, 70gsm kraft paper, water proof, 237x125x80mm, 20pc packed, 1000pc/ctn\",\"spec\":\"MOQ 100000pc\"},{\"id\":\"E301\",\"name\":\"Sewing kit\",\"desc\":\"6 thread, 2 button, 1 needle, 1 safety pin,packed in bag or paper box\",\"spec\":\"MOQ 100000set\"}]}]";
+    var gloable_product_json = JSON.parse(gloable_product);
+    var gloable_tap_product;
+    function disactiveNav() {
+      $("#nav_home").removeClass("active");
+      $("#nav_about").removeClass("active");
+      $("#nav_contact").removeClass("active");
+      
+      $("#home-content").hide();
+      $("#about-content").hide();
+      $("#contact-content").hide();
+      $(".home-products").hide();
+      console.log("disactiveNav");
+    }
+
+    function loadCategories(){
+      var menus = "<li class='nav-header'><h3 style='font-size:16px;'>Product Categories<h3></li>";
+      for(var obj in gloable_product_json){
+        var menuItem = gloable_product_json[obj];
+        menus+="<li><a class='menu_item' href=#";
+        menus+=menuItem.id;
+        menus+=">";
+        menus+=menuItem.name;
+        menus+="</a></li>";
+      }
+      $(".nav-list").html(menus);
+      $(".menu_item").click(function(){
+        disactiveNav();
+        var href = $(this).attr("href");
+        href = href.substring(1, href.length);
+        $(".home-category").hide();
+        loadProduct(href);
+        $("#home-products").show();
+      });
+    }
+
+    function getProductById(id){
+      if (id == undefined) return undefined;
+      for(var obj in gloable_product_json){
+        var item = gloable_product_json[obj]
+        var products = item.products;
+        for(var i in products){
+          var product = products[i];
+          if (product.id == id) {
+            return product;
+          }
+        }
+      }
+      return undefined;
+    }
+
+    function loadProduct(categoryId) {
+      $(".home-products").show();
+      if (categoryId.length > 0) {
+      var products = [];
+      var categoryName;
+      for(var obj in gloable_product_json){
+        var item = gloable_product_json[obj]
+        if (item.id == categoryId) {
+          products = item.products;
+          categoryName = item.name;
+          break;
+        }
+      }
+        var strs = "";
+        var totalCol = 3;
+        var totalCount = products.length;
+        var totalRow = totalCount / totalCol + 1;
+
+        // if (categoryId=="H"){
+          //Hot sales加一行字
+          strs+="<div class='caption hot-title'><h3>";
+          strs+=categoryName;
+          strs+="</h3></div>";
+        // }
+
+        for (var row = 0; row < totalRow; row++){
+          strs+="<div class='row'>";
+          for (var col = 0; col < totalCol; col++){
+            var index = row * totalCol + col;
+            if (index < totalCount) {
+            var p = products[index];
+            var img = p.img;
+            if (img == undefined) {img = p.name+".jpg"};
+            strs+="<div class='col-md-4'>";
+            strs+="<div class='thumbnail product-detail' id='";strs+=p.id;strs+="'>";
+            strs+="<img src='./img/pic/";strs+=img;strs+=" 'alt='Picture'>";
+            strs+="<div class='caption'>";
+            strs+="<h3>";strs+=p.name;strs+="</h3>";
+            strs+="<p>";strs+=p.desc;strs+="</p>";
+            strs+="<p>";strs+=p.spec;strs+="</p>";
+            strs+="</div></div>";
+            strs+="</div>";
+            }
+          }
+          strs+="</div>";
+        }
+      }
+      $(".home-products").html(strs);
+      $(".product-detail").click(function(){
+        var productId = $(this).attr("id");
+        var product = getProductById(productId);
+        if (product != undefined) {
+          $("#tapProductModal-title").html(product.name);
+          $("#tapProductModal").modal("show");
+          gloable_tap_product = product;
+        }
+      });
+    }
+
+
+
+    $(document).ready(function () {
+      $("#nav_home a").click(function () {
+        disactiveNav();
+        $("#nav_home").addClass("active");
+        $("#home-content").show();
+      });
+      $("#nav_about a").click(function () {
+        disactiveNav();
+        $("#nav_about").addClass("active");
+        $("#about-content").show();
+      });
+      $("#nav_contact a").click(function () {
+        disactiveNav();
+        $("#nav_contact").addClass("active");
+        $("#contact-content").show();
+      });
+
+      $(".open-link").click(function(){
+        var herf = $(this).attr("herf");
+        window.open(herf);
+      });
+
+      var APP_ID = 'oLcPVzGND7sungjo8pj2DfAk-MdYXbMMI';
+      var APP_KEY = 'NmXmRHvcTBygdLPlbyBQeWrM';
+      AV.init({
+        appId: APP_ID,
+        appKey: APP_KEY,
+        region: 'us'
+      });
+
+      $("#submit-btn").click(function () {
+        var name = $("#form-name").val();
+        var company = $("#form-company").val();
+        var email_text = $("#form-email").val();
+        var msg = $("#say-something").val();
+
+      if (dotIndex < atIndex+1){
+          alert("Please check your email!");
+          return;
+        }
+
+        var atIndex = email_text.indexOf("@");
+        var dotIndex = email_text.lastIndexOf(".");
+
+        if (dotIndex < atIndex+1){
+          alert("Please check your email!");
+          console.log('email not right');
+          return;
+        }
+
+        if (email_text.length > 0) {
+          var Inquery = AV.Object.extend('inquery_new'); 
+          var inquery = new Inquery();
+          inquery.set("name", name.length> 0?name :"");
+          inquery.set("company", company.length> 0?company :"");
+          inquery.set("email", email_text.length> 0?email_text :"");
+          inquery.set("text", msg.length> 0?msg :"");
+          inquery.save()
+                .then(function (object) {
+                  alert('We have received your message, thank you!'); 
+              }, function(error){
+                  $("#inquery_end").modal("show");
+              }); 
+        } 
+      });
+
+      loadCategories();
+      loadProduct("H");
+
+      $("#gotosendinquery").click(function(){
+        $("#tapProductModal").modal("hide");
+        if (gloable_tap_product != undefined){
+          var mailbody="Dear%20%0AI%27m%20interested%20in%20this,%20please%20give%20me%20more%20detail.";
+          window.open("mailto:quicbeauty@163.com?subject=Inquiry%20"+gloable_tap_product.id+"%20"+gloable_tap_product.name+"&body="+mailbody);
+        }
+      });
+
+//连续滚动
+var _speed=30;
+var _slide = $("#slide");
+var _slideli1 = $(".slideli1");
+var _slideli2 = $(".slideli2");
+_slideli2.html(_slideli1.html());
+function Marquee(){
+	if(_slide.scrollLeft() >= _slideli1.width())
+		_slide.scrollLeft(0);
+	else{
+		_slide.scrollLeft(_slide.scrollLeft()+1);
+	}
+}
+$(function(){
+	//两秒后调用
+	var sliding=setInterval(Marquee,_speed)
+	_slide.hover(function() {
+		//鼠标移动DIV上停止
+		clearInterval(sliding);
+	},function(){
+		//离开继续调用
+		sliding=setInterval(Marquee,_speed);
+	});
+});
+
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Quic Beauty</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <p class="navbar-text pull-right">
+          <a href="mailto:quicbeauty@163.com?subject=I+was+interested+in+...body=Dear" class="navbar-link">Send Email</a>
+        </p>
+        <ul class="nav navbar-nav">
+          <li id="nav_home" class="active"><a href="">Home</a></li>
+          <li id="nav_about"><a href="#about">About us</a></li>
+          <li id="nav_contact"><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3" id="left-span">
+        <div class="well sidebar-nav">
+          <ul class="nav nav-list">
+            <li class="nav-header">Product Categories</li>
+          </ul>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              Contact Info:
+            </h3>
+          </div>
+          <div class="panel-body">
+            <p><span>Email: </span>quicbeauty@163.com<p>
+            <p><span>Skype: </span>735123991<p>
+            <p><span>Website: </span>http://quicbeauty.com<p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row" id="home-content">
+          <div class="panel home-category">
+            <div class="jumbotron">
+              <h1>Welcome to Quic Beauty</h1>
+            </div>
+          </div>
+          <div id="slide">
+            <ul class="slideul1">
+              <li class="slideli1">
+                <ul class="slideul2">
+              <li><img src="./img/pic/carousel/1.png" alt="1"></li>
+              <li><img src="./img/pic/carousel/1.1.png" alt="2"></li>
+              <li><img src="./img/pic/carousel/2.png" alt="3"></li>
+              <li><img src="./img/pic/carousel/3.png" alt="4"></li>
+              <li><img src="./img/pic/carousel/4.png" alt="5"></li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="home-products">
+        </div>
+        <div class="row" id="about-content">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="about-holder">
+                <!--<h2>Company</h2>-->
+                <div class="ab-cont col-md-12">
+                  <h4>Quic Beauty</h4>
+                  <p>Quic Beauty is newly bulit in 2016, in Hubei, China. We take price in sourcing and supplying our customers with
+                    the highest quality products, customer support and service in the beauty and hair salon, medical field and food industry.
+                    Our products are mainly made of non woven or PE material for one-time use. Quic Beauty is aimed to help to make
+                    your beauty work and daily life more quicker, easier and simpler.</p>
+                  <p>Thank you for taking time to look over our website, If you have any questions or wish to place an order, please
+                    don't hesitate to contact us at quicbeauty@163.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="factory-pic">
+                <div class="col-md-12">
+                  <img src="./img/pic/PP.jpg" class="img-responsive" alt=""><br/>
+                  <img src="./img/pic/fac.png" class="img-responsive" alt=""><br/>
+                  <img src="./img/pic/timg.jpg" class="img-responsive" alt=""><br/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="contact-content">
+          <form class="form-horizontal" role="form" style="padding-top:50px;">
+            <div class="form-group">
+              <label class="col-md-3 control-label">Name:</label>
+              <div class="col-md-7">
+                <input class="form-control" id="form-name" type="text" placeholder="your name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Company:</label>
+              <div class="col-md-7">
+                <input class="form-control" id="form-company" type="text" placeholder="your company">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Email:</label>
+              <div class="col-md-7">
+                <input class="form-control" id="form-email" type="text" placeholder="example@domain.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-3 control-label">Message:</label>
+              <div class="col-md-7">
+                <textarea id="say-something" class="form-control" rows="3" placeholder="say something"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-3 col-md-10">
+                <button id="submit-btn" type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" id="foott-content">
+    <div class="container">
+        <p class="text-muted">Copyright©2017.</p>
+      </div>
+  </footer>
+
+<div class="modal fade" id="tapProductModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+				</button>
+				<h4 class="modal-title" id="tapProductModal-title">
+					Send inquery
+				</h4>
+			</div>
+			<div class="modal-body" id="tapProductModal-content">
+					Send inquiry?
+			</div>
+			<div class="modal-footer">
+        <a></a>
+				<button type="button" class="btn btn-default" id="gotosendinquery">
+					YES
+				</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+					NO
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="inquery_end" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+				</button>
+				<h4 class="modal-title" id="tapProductModal-title">
+					Error
+				</h4>
+			</div>
+			<div class="modal-body" id="tapProductModal-content">
+					It seems the network has some problem.You can contact us by <a href="mailto:quicbeauty@163.com">Email</a> or <a href="skype:735123991?add">Skype</a>.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">
+					OK
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+$("#about-content").hide();
+$("#contact-content").hide();
+</script>
+</body>
+</html>
